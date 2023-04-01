@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-eqiv="X-UA_Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <title>ContactPage</title>
+        <!--Google fonts--> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <!--Font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+
+    <header id="blog-header">
+        <figure class="logo-figure">
+            <i class="fab fa-autoprefixer logo"></i>
+        </figure>
+    
+        <nav id="menu-icon">
+            <ul>
+                <li><a href="./index.html" class="nav__link">Home</a></li>
+                <li><a href="./index.html" class="nav__link">About</a></li>
+                <li><a href="./index.html" class="nav__link">Archives</a></li>
+                <li><a href="./index.html" class="nav__link">Blogs</a></li>
+                <li><a href="#contact-section" class="nav__link">Contact Us</a></li>
+    
+            </ul>
+        </nav>
+    </header>
+     <!--Contact Me starts here-->
+     <section id="contact-section" class="section-center">
+        <h2 class="section-heading text-white">Contact Me</h2>
+        <form >
+            <div class="form-control">
+                <label for="Name">Name</label>
+                <input type="text" id="name" autocomplete="name" required>
+            </div>
+            <div class="form-control">
+                <label for="Email">Email</label>
+                <input type="email" id="email" autocomplete="email" required>
+            </div>
+            <div class="form-control">
+                <label for="Message">Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-control_btn_field">
+                <button class="btn-contact_btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <p class="copyright_text">Copyright &copy; by Himangshu Singh. All rights reserved.</p>
+        <nav class="footer_nav">
+            
+            <a href="#" target="_blank" class="footer_link"><i class="fab fa-linkedin footer_icon"></i></a>
+            <a href="#" target="_blank" class="footer_link"><i class="fab fa-facebook footer_icon"></i></a>
+            <a href="#" target="_blank" class="footer_link"><i class="fab fa-twitter footer_icon"></i></a>
+            <a href="#" target="_blank" class="footer_link"><i class="fab fa-github footer_icon"></i></a>
+        </nav>
+    </footer>
+    </body>
+</html>
